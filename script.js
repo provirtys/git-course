@@ -4,4 +4,7 @@ function getDistance(elem) {
   return offset.right - window.innerWidth
 }
 
-some text
+//write function to get random number from 10 to 100
+function getRandomNumber() {
+  return Math.floor(Math.random() * 90 + 10)
+}
