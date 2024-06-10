@@ -8,3 +8,13 @@ function getDistance(elem) {
 function getRandomNumber() {
   return Math.floor(Math.random() * 90 + 10)
 }
+
+//write function that will get random color
+function getRandomColor() {
+  let letters = '0123456789ABCDEF'
+  let color = '#'
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)]
+  }
+  return color
+}
