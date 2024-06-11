@@ -1,4 +1,0 @@
-*.log
-!test.log
-bitrix
-!bitrix/php_interface/
